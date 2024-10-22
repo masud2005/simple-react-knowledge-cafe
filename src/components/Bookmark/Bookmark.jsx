@@ -1,9 +1,9 @@
 
 const Bookmark = ({bookmark}) => {
-    console.log(bookmark)
+    // console.log(bookmark)
     return (
         <div className="bg-white mt-2 p-2 rounded">
-            <h2 className="font-bold text-sm">{bookmark.title}</h2>
+            <h2 className="font-bold text-sm lg:text-base">{bookmark.title}</h2>
         </div>
     );
 };

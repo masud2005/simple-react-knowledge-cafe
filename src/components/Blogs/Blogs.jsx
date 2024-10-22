@@ -13,7 +13,7 @@ const Blogs = ({handleAddToBookMarks, handleMarkAsRead}) => {
     }, [])
 
     return (
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
             {
                 blogs.map(blog => <Blog 
                     blog={blog} 
