@@ -23,7 +23,7 @@ const Blog = ({ blog, handleAddToBookMarks, handleMarkAsRead }) => {
                         <span className="text-gray-500 text-sm">{posted_date}</span>
                     </div>
                 </div>
-                <div className="flex lg:gap-3">
+                <div className="flex lg:gap-3 items-center justify-center">
                     <span className="text-gray-500 text-sm">{reading_time} min read</span>
                     {/* <button onClick={() => {handleAddToBookMarks(blog); handleBookmarked()}} className="bg-gray-300 hover:bg-violet-300 hover:border border-violet-700 p-2 rounded-full"><FaRegBookmark /></button> */}
                     <button onClick={() => {handleAddToBookMarks(blog); handleBookmarked()}} className={`p-2 rounded-full hover:bg-violet-300 hover:border border-violet-700 ${bookmarked && 'bg-violet-300 border border-violet-700'}`}><FaRegBookmark /></button>

@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='container mx-auto grid grid-cols-12 gap-2 md:gap-5 my-5 md:my-10 md:w-11/12'>
+      <div className='container mx-auto grid grid-cols-12 gap-2 md:gap-5 my-5 md:my-10 md:w-11/12 px-2 md:px-0'>
         <div className='col-span-8'>
           <Blogs
             handleAddToBookMarks={handleAddToBookMarks}
